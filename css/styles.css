@@ -21,3 +21,9 @@
 	height: 40vh;
 	width: 100%;
 }
+row {
+	border-style: hidden;
+}
+.thumbnail {
+	border-style: none;
+}
