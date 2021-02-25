@@ -2,6 +2,9 @@
 * {
 	font-family: "Poppins", sans-serif;
 }
+.container-main {
+	width: 100%;
+}
 .jumbotron {
 	color: aliceblue;
 	background: url(../img/backgrounds/h_img.jpg);
@@ -36,13 +39,17 @@ row {
 
 .form {
 	background: none;
+	width: 100%;
+	color: aliceblue;
 }
 .form-control {
 	background: none;
+	color: aliceblue;
 }
 
 .btn.btn-success {
 	margin-top: 10px;
-	margin-left: 45%;
-	margin-right: 45%;
+}
+#footer {
+	margin-top: 20px;
 }
