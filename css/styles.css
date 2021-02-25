@@ -1,0 +1,22 @@
+@import "https://fonts.googleapis.com/css?family=Poppins";
+* {
+	font-family: "Poppins", sans-serif;
+}
+.jumbotron {
+	font-size: 1px;
+	height: 100vh;
+	background: url(../img/backgrounds/h_img.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: aliceblue;
+}
+.logo {
+	margin-top: 20vh;
+}
+.container2 {
+	color: aliceblue;
+	background: url(../img/backgrounds/s_image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 30vh;
+}
