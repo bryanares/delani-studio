@@ -27,3 +27,22 @@ row {
 .thumbnail {
 	border-style: none;
 }
+
+.container.form {
+	background: url(../img/backgrounds/c_image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.form {
+	background: none;
+}
+.form-control {
+	background: none;
+}
+
+.btn.btn-success {
+	margin-top: 10px;
+	margin-left: 45%;
+	margin-right: 45%;
+}
