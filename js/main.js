@@ -107,4 +107,24 @@ $(document).ready(function () {
 			$(".thumb4").addClass("hide4");
 		}
 	);
+	$("#good #goodthumb").hover(
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 0.4,
+				},
+				200
+			);
+			$(".thumb5").removeClass("hide5");
+		},
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 1,
+				},
+				500
+			);
+			$(".thumb5").addClass("hide5");
+		}
+	);
 });
