@@ -87,4 +87,24 @@ $(document).ready(function () {
 			$(".thumb3").addClass("hide3");
 		}
 	);
+	$("#brave #bravethumb").hover(
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 0.4,
+				},
+				200
+			);
+			$(".thumb4").removeClass("hide4");
+		},
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 1,
+				},
+				500
+			);
+			$(".thumb4").addClass("hide4");
+		}
+	);
 });
