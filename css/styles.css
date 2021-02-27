@@ -67,6 +67,22 @@ row {
 	background: none;
 	color: aliceblue;
 }
+.form-group.name {
+	float: left;
+	margin-left: 20vh;
+	width: 70vh;
+}
+
+.form-group.email {
+	float: right;
+	margin-right: 20vh;
+	width: 70vh;
+}
+
+.form-group.text {
+	margin-left: 20vh;
+	margin-right: 20vh;
+}
 
 .btn.btn-success {
 	margin-top: 10px;
