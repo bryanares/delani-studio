@@ -127,4 +127,24 @@ $(document).ready(function () {
 			$(".thumb5").addClass("hide5");
 		}
 	);
+	$("#buttons #buttonsthumb").hover(
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 0.4,
+				},
+				200
+			);
+			$(".thumb6").removeClass("hide6");
+		},
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 1,
+				},
+				500
+			);
+			$(".thumb6").addClass("hide6");
+		}
+	);
 });
