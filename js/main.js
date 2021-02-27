@@ -1,5 +1,6 @@
 $(document).ready(function () {
 	$("#design-hidden").click(function () {
+		//$("#design-showing").toggle();
 		$("#design-hidden").hide();
 		$("#design-showing").show();
 	});

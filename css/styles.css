@@ -68,25 +68,27 @@ row {
 	color: aliceblue;
 }
 .form-group.name {
+	padding: 12px;
 	float: left;
-	margin-left: 20vh;
-	width: 70vh;
+	margin-left: 10%;
+	width: 40%;
 }
 
 .form-group.email {
+	padding: 12px;
 	float: right;
-	margin-right: 20vh;
-	width: 70vh;
+	margin-right: 10%;
+	width: 40%;
 }
 
 .form-group.text {
 	margin-left: 20vh;
 	margin-right: 20vh;
 }
-
-.btn.btn-success {
-	margin-top: 10px;
+.button {
+	margin-left: 45%;
 }
+
 #footer {
 	margin-top: 20px;
 }
