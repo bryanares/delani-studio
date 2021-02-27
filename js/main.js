@@ -167,4 +167,24 @@ $(document).ready(function () {
 			$(".thumb7").addClass("hide7");
 		}
 	);
+	$("#giraffe #giraffethumb").hover(
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 0.4,
+				},
+				200
+			);
+			$(".thumb8").removeClass("hide8");
+		},
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 1,
+				},
+				500
+			);
+			$(".thumb8").addClass("hide8");
+		}
+	);
 });
