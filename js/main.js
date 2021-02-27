@@ -1,6 +1,6 @@
+//what we do
 $(document).ready(function () {
 	$("#design-hidden").click(function () {
-		//$("#design-showing").toggle();
 		$("#design-hidden").hide();
 		$("#design-showing").show();
 	});
@@ -26,6 +26,7 @@ $(document).ready(function () {
 	});
 });
 
+//Portfolio
 $(document).ready(function () {
 	$("#grey #greythumb").hover(
 		function () {
