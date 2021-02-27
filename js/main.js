@@ -25,3 +25,66 @@ $(document).ready(function () {
 		$("#projectmgt-showing").hide();
 	});
 });
+
+$(document).ready(function () {
+	$("#grey #greythumb").hover(
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 0.4,
+				},
+				200
+			);
+			$(".thumb1").removeClass("hide1");
+		},
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 1,
+				},
+				500
+			);
+			$(".thumb1").addClass("hide1");
+		}
+	);
+	$("#ontario #ontariothumb").hover(
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 0.4,
+				},
+				200
+			);
+			$(".thumb2").removeClass("hide2");
+		},
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 1,
+				},
+				500
+			);
+			$(".thumb2").addClass("hide2");
+		}
+	);
+	$("#orange #orangethumb").hover(
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 0.4,
+				},
+				200
+			);
+			$(".thumb3").removeClass("hide3");
+		},
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 1,
+				},
+				500
+			);
+			$(".thumb3").addClass("hide3");
+		}
+	);
+});
