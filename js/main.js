@@ -147,4 +147,24 @@ $(document).ready(function () {
 			$(".thumb6").addClass("hide6");
 		}
 	);
+	$("#burned #burnedthumb").hover(
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 0.4,
+				},
+				200
+			);
+			$(".thumb7").removeClass("hide7");
+		},
+		function () {
+			$(this).stop().animate(
+				{
+					opacity: 1,
+				},
+				500
+			);
+			$(".thumb7").addClass("hide7");
+		}
+	);
 });
