@@ -30,6 +30,27 @@ row {
 .thumbnail {
 	border-style: none;
 }
+#design-showing {
+	display: none;
+	cursor: pointer;
+}
+#development-showing {
+	display: none;
+	cursor: pointer;
+}
+#projectmgt-showing {
+	display: none;
+	cursor: pointer;
+}
+#design-hidden {
+	cursor: pointer;
+}
+#development-hidden {
+	cursor: pointer;
+}
+#projectmgt-hidden {
+	cursor: pointer;
+}
 
 .container.form {
 	background: url(../img/backgrounds/c_image.jpg);
