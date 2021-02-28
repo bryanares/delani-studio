@@ -207,8 +207,9 @@
 	margin-left: 20vh;
 	margin-right: 20vh;
 }
-.button {
-	margin-left: 45%;
+.btn.btn-success {
+	margin-left: 48%;
+	position: relative;
 }
 
 #footer {
