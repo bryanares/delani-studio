@@ -1,9 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Poppins";
 * {
 	font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
 }
 .container-main {
-	width: 100%;
+	max-width: 100%;
 }
 .jumbotron {
 	color: aliceblue;
@@ -11,7 +12,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100%;
+	max-width: 100%;
 }
 .logo {
 	margin-top: 20vh;
@@ -207,14 +208,58 @@
 	margin-left: 20vh;
 	margin-right: 20vh;
 }
-.btn.btn-success {
-	margin-left: 48%;
-	position: relative;
+#button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #footer {
 	margin-top: 20px;
 }
+.container.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.p-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 #textarea {
 	height: 50vh;
+}
+
+.modal-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	opacity: 0;
+	pointer-events: none;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+}
+.modal-container.show {
+	pointer-events: auto;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 30%;
+	left: 26%;
+}
+
+.modal-box {
+	background-color: aliceblue;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	padding: 30px 50px;
+	width: 600px;
+	max-width: 100%;
+	text-align: center;
 }

@@ -189,3 +189,16 @@ $(document).ready(function () {
 		}
 	);
 });
+
+const submit = document.getElementById("submit");
+const modalContainer = document.getElementById("modalContainer");
+const closedBtn = document.getElementById("closedBtn");
+
+submit.addEventListener("click", (e) => {
+	e.preventDefault();
+	modalContainer.classList.add("show");
+});
+
+closedBtn.addEventListener("click", () => {
+	modalContainer.classList.remove("show");
+});
